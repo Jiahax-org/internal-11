@@ -6,6 +6,7 @@
           "**/*.md",
           "**/*.yml"
         ],
+		"group": "active",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -15,7 +16,8 @@
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices"
-        ]
+        ],
+		"src": "active"
       }
     ],
     "resource": [
@@ -29,7 +31,9 @@
           "**/includes/**",
           "_themes/**",
           "_themes.pdf/**"
-        ]
+        ],
+		"src": "active",
+        "group": "active"
       }
     ],
     "overwrite": [],
@@ -37,6 +41,12 @@
     "globalMetadata": {},
     "fileMetadata": {},
     "template": [],
-    "dest": "internal-rename11"
+    "dest": "internal-2",
+    "groups": {
+      "active": {
+       "dest": "active",
+        "moniker_range": ">= contososerver-2.0 || >= contosoclient-1.0"
+      }
+    }
   }
 }

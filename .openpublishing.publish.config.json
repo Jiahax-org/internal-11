@@ -1,21 +1,20 @@
 {
-  "build_entry_point": "docs",
+  "build_entry_point": "op",
   "docsets_to_publish": [
     {
-      "docset_name": "internal-rename11",
-      "build_source_folder": "internal-rename11",
-      "build_output_subfolder": "internal-rename11",
+      "docset_name": "internal-2",
+      "build_source_folder": "internal-2",
+      "build_output_subfolder": "internal-2",
       "locale": "en-us",
       "monikers": [],
-      "moniker_ranges": [],
-      "open_to_public_contributors": true,
+      "moniker_ranges": ["< contososerver-2.0", ">= contososerver-2.0 || >= contosoclient-1.0"],
+      "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
         "RestApi": "Content"
       },
-      "build_entry_point": "docs",
-      "template_folder": "_themes"
+      "build_entry_point": "op"
     }
   ],
   "notification_subscribers": [],
