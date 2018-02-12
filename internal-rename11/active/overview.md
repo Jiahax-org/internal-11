@@ -35,4 +35,4 @@ This section applies only to `contososerver-2.1`, `contosoclient-1.0` and `conto
 
 ## Conclusion
 
-You should see two different sections displayed above, depending on which version is selected.
+You should see two different sections displayed above, depending on which version is selected
