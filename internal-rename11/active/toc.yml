@@ -29,12 +29,20 @@
     href: concepts/concept-1.md
   - name: Concept 2
     href: concepts/concept-2.md
+  - name: Concept 3
+    href: concepts/concept-3.md
+  - name: Concept 4
+    href: concepts/concept-4.md
   - name: Sub Concepts
     items:
     - name: Sub Concept 1
       href: concepts/sub-concepts/sub-concept-1.md
     - name: Sub Concept 2
       href: concepts/sub-concepts/sub-concept-2.md
+    - name: Sub Concept 3
+      href: concepts/sub-concepts/sub-concepts-3.md
+    - name: Sub Concept 4
+      href: concepts/sub-concepts/sub-concepts-4.md
 - name: Reference
   items:
   - name: Reference 1
