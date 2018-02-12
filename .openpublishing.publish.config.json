@@ -1,5 +1,5 @@
 {
-  "build_entry_point": "op",
+  "build_entry_point": "docs",
   "docsets_to_publish": [
     {
       "docset_name": "internal-rename11",
@@ -14,7 +14,7 @@
         "ManagedReference": "Content",
         "RestApi": "Content"
       },
-      "build_entry_point": "op"
+      "build_entry_point": "docs"
     }
   ],
   "notification_subscribers": [],
